@@ -20,14 +20,15 @@ public class Main {
                 printDie(roll);
                 System.out.println("You have rolled :"+ roll);
 
-                total+=numOfRoll;
-
+                total+=roll;
 
             }
+            System.out.print("Your total number of rolls is: " +total);
+
+
         }else{
             System.out.println("Number of rolls must be greater than zero!!");
         }
-        System.out.print("Your total number of rolls is: " +total);
 
 
 
